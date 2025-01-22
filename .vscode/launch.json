@@ -1,0 +1,63 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "NotificationApplication",
+            "request": "launch",
+            "mainClass": "com.dimas.notification.NotificationApplication",
+            "projectName": "notification"
+        },
+        {
+            "type": "java",
+            "name": "OrderApplication",
+            "request": "launch",
+            "mainClass": "com.dimas.order.OrderApplication",
+            "projectName": "order"
+        },
+        {
+            "type": "java",
+            "name": "PaymentApplication",
+            "request": "launch",
+            "mainClass": "com.dimas.payment.PaymentApplication",
+            "projectName": "payment"
+        },
+        {
+            "type": "java",
+            "name": "ProductApplication",
+            "request": "launch",
+            "mainClass": "com.dimas.product.ProductApplication",
+            "projectName": "product"
+        },
+        {
+            "type": "java",
+            "name": "GatewayApplication",
+            "request": "launch",
+            "mainClass": "com.dimas.gateway.GatewayApplication",
+            "projectName": "gateway"
+        },
+        {
+            "type": "java",
+            "name": "CustomerApplication",
+            "request": "launch",
+            "mainClass": "com.dimas.customer.CustomerApplication",
+            "projectName": "customer"
+        },
+        {
+            "type": "java",
+            "name": "DiscorveryApplication",
+            "request": "launch",
+            "mainClass": "com.dimas.discorvery.DiscorveryApplication",
+            "projectName": "discorvery"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.dimas.configserver.ConfigServerApplication",
+            "projectName": "config-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

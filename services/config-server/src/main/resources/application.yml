@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: native
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/configurations
+  spring:
+    kafka:
+      consumer:
+        session-timeout: 60000
+Server:
+  port: 8888
